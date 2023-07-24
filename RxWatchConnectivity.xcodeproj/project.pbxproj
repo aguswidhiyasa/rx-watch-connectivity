@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BCB64236DFAE340341B01E /* Pods_RxWatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DAE6FE11191D6DC9EEFF7FB /* Pods_RxWatchConnectivity.framework */; };
+		77770726454B4BCE60A96A3F /* Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D3FEA152B3826947B76E123 /* Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework */; };
+		B81F87382A2D8B1C002801C3 /* RxWatchConnectivityFailureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F87372A2D8B1C002801C3 /* RxWatchConnectivityFailureTest.swift */; };
+		B81F873A2A2DBC82002801C3 /* RxWatchConnectivityInactiveTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81F87392A2DBC82002801C3 /* RxWatchConnectivityInactiveTest.swift */; };
+		B8A7D3AA2A2C9D8C006DD0D2 /* RxWatchConnectivity.docc in Sources */ = {isa = PBXBuildFile; fileRef = B8A7D3A92A2C9D8C006DD0D2 /* RxWatchConnectivity.docc */; };
+		B8A7D3B02A2C9D8C006DD0D2 /* RxWatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8A7D3A52A2C9D8C006DD0D2 /* RxWatchConnectivity.framework */; };
+		B8A7D3B52A2C9D8C006DD0D2 /* RxWatchConnectivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A7D3B42A2C9D8C006DD0D2 /* RxWatchConnectivityTests.swift */; };
+		B8A7D3B62A2C9D8C006DD0D2 /* RxWatchConnectivity.h in Headers */ = {isa = PBXBuildFile; fileRef = B8A7D3A82A2C9D8C006DD0D2 /* RxWatchConnectivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B8A7D3C02A2CA1C3006DD0D2 /* RxWatchConnectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A7D3BF2A2CA1C3006DD0D2 /* RxWatchConnectivity.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8A7D3B12A2C9D8C006DD0D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8A7D39C2A2C9D8C006DD0D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8A7D3A42A2C9D8C006DD0D2;
+			remoteInfo = RxWatchConnectivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D3FEA152B3826947B76E123 /* Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DE688A579942C4F08F86FE9 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWatchConnectivity-RxWatchConnectivityTests.release.xcconfig"; path = "Target Support Files/Pods-RxWatchConnectivity-RxWatchConnectivityTests/Pods-RxWatchConnectivity-RxWatchConnectivityTests.release.xcconfig"; sourceTree = "<group>"; };
+		555636A61237A9DF104F2F4E /* Pods-RxWatchConnectivity.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWatchConnectivity.release.xcconfig"; path = "Target Support Files/Pods-RxWatchConnectivity/Pods-RxWatchConnectivity.release.xcconfig"; sourceTree = "<group>"; };
+		9DAE6FE11191D6DC9EEFF7FB /* Pods_RxWatchConnectivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxWatchConnectivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81F87372A2D8B1C002801C3 /* RxWatchConnectivityFailureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWatchConnectivityFailureTest.swift; sourceTree = "<group>"; };
+		B81F87392A2DBC82002801C3 /* RxWatchConnectivityInactiveTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWatchConnectivityInactiveTest.swift; sourceTree = "<group>"; };
+		B8A7D3A52A2C9D8C006DD0D2 /* RxWatchConnectivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxWatchConnectivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A7D3A82A2C9D8C006DD0D2 /* RxWatchConnectivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxWatchConnectivity.h; sourceTree = "<group>"; };
+		B8A7D3A92A2C9D8C006DD0D2 /* RxWatchConnectivity.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RxWatchConnectivity.docc; sourceTree = "<group>"; };
+		B8A7D3AF2A2C9D8C006DD0D2 /* RxWatchConnectivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxWatchConnectivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8A7D3B42A2C9D8C006DD0D2 /* RxWatchConnectivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWatchConnectivityTests.swift; sourceTree = "<group>"; };
+		B8A7D3BF2A2CA1C3006DD0D2 /* RxWatchConnectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxWatchConnectivity.swift; sourceTree = "<group>"; };
+		C691D087028489EA26962893 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWatchConnectivity-RxWatchConnectivityTests.debug.xcconfig"; path = "Target Support Files/Pods-RxWatchConnectivity-RxWatchConnectivityTests/Pods-RxWatchConnectivity-RxWatchConnectivityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF388BB793E148A27483828B /* Pods-RxWatchConnectivity.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxWatchConnectivity.debug.xcconfig"; path = "Target Support Files/Pods-RxWatchConnectivity/Pods-RxWatchConnectivity.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8A7D3A22A2C9D8C006DD0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BCB64236DFAE340341B01E /* Pods_RxWatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A7D3AC2A2C9D8C006DD0D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A7D3B02A2C9D8C006DD0D2 /* RxWatchConnectivity.framework in Frameworks */,
+				77770726454B4BCE60A96A3F /* Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8A7D39B2A2C9D8C006DD0D2 = {
+			isa = PBXGroup;
+			children = (
+				B8A7D3A72A2C9D8C006DD0D2 /* RxWatchConnectivity */,
+				B8A7D3B32A2C9D8C006DD0D2 /* RxWatchConnectivityTests */,
+				B8A7D3A62A2C9D8C006DD0D2 /* Products */,
+				C853DB817689B26C94B2F625 /* Pods */,
+				C1582263EE10D4762C3B5C0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B8A7D3A62A2C9D8C006DD0D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8A7D3A52A2C9D8C006DD0D2 /* RxWatchConnectivity.framework */,
+				B8A7D3AF2A2C9D8C006DD0D2 /* RxWatchConnectivityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8A7D3A72A2C9D8C006DD0D2 /* RxWatchConnectivity */ = {
+			isa = PBXGroup;
+			children = (
+				B8A7D3A82A2C9D8C006DD0D2 /* RxWatchConnectivity.h */,
+				B8A7D3A92A2C9D8C006DD0D2 /* RxWatchConnectivity.docc */,
+				B8A7D3BF2A2CA1C3006DD0D2 /* RxWatchConnectivity.swift */,
+			);
+			path = RxWatchConnectivity;
+			sourceTree = "<group>";
+		};
+		B8A7D3B32A2C9D8C006DD0D2 /* RxWatchConnectivityTests */ = {
+			isa = PBXGroup;
+			children = (
+				B8A7D3B42A2C9D8C006DD0D2 /* RxWatchConnectivityTests.swift */,
+				B81F87372A2D8B1C002801C3 /* RxWatchConnectivityFailureTest.swift */,
+				B81F87392A2DBC82002801C3 /* RxWatchConnectivityInactiveTest.swift */,
+			);
+			path = RxWatchConnectivityTests;
+			sourceTree = "<group>";
+		};
+		C1582263EE10D4762C3B5C0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DAE6FE11191D6DC9EEFF7FB /* Pods_RxWatchConnectivity.framework */,
+				1D3FEA152B3826947B76E123 /* Pods_RxWatchConnectivity_RxWatchConnectivityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C853DB817689B26C94B2F625 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF388BB793E148A27483828B /* Pods-RxWatchConnectivity.debug.xcconfig */,
+				555636A61237A9DF104F2F4E /* Pods-RxWatchConnectivity.release.xcconfig */,
+				C691D087028489EA26962893 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.debug.xcconfig */,
+				3DE688A579942C4F08F86FE9 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B8A7D3A02A2C9D8C006DD0D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A7D3B62A2C9D8C006DD0D2 /* RxWatchConnectivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B8A7D3A42A2C9D8C006DD0D2 /* RxWatchConnectivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A7D3B92A2C9D8C006DD0D2 /* Build configuration list for PBXNativeTarget "RxWatchConnectivity" */;
+			buildPhases = (
+				2AB3FB06157BB3F384ED4819 /* [CP] Check Pods Manifest.lock */,
+				B8A7D3A02A2C9D8C006DD0D2 /* Headers */,
+				B8A7D3A12A2C9D8C006DD0D2 /* Sources */,
+				B8A7D3A22A2C9D8C006DD0D2 /* Frameworks */,
+				B8A7D3A32A2C9D8C006DD0D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxWatchConnectivity;
+			productName = RxWatchConnectivity;
+			productReference = B8A7D3A52A2C9D8C006DD0D2 /* RxWatchConnectivity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8A7D3AE2A2C9D8C006DD0D2 /* RxWatchConnectivityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8A7D3BC2A2C9D8C006DD0D2 /* Build configuration list for PBXNativeTarget "RxWatchConnectivityTests" */;
+			buildPhases = (
+				4763CC18E2386FE2AF648EC9 /* [CP] Check Pods Manifest.lock */,
+				B8A7D3AB2A2C9D8C006DD0D2 /* Sources */,
+				B8A7D3AC2A2C9D8C006DD0D2 /* Frameworks */,
+				B8A7D3AD2A2C9D8C006DD0D2 /* Resources */,
+				D61B1C2CFAA56C6F6A72FAC5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A7D3B22A2C9D8C006DD0D2 /* PBXTargetDependency */,
+			);
+			name = RxWatchConnectivityTests;
+			productName = RxWatchConnectivityTests;
+			productReference = B8A7D3AF2A2C9D8C006DD0D2 /* RxWatchConnectivityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8A7D39C2A2C9D8C006DD0D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					B8A7D3A42A2C9D8C006DD0D2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					B8A7D3AE2A2C9D8C006DD0D2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = B8A7D39F2A2C9D8C006DD0D2 /* Build configuration list for PBXProject "RxWatchConnectivity" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8A7D39B2A2C9D8C006DD0D2;
+			productRefGroup = B8A7D3A62A2C9D8C006DD0D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8A7D3A42A2C9D8C006DD0D2 /* RxWatchConnectivity */,
+				B8A7D3AE2A2C9D8C006DD0D2 /* RxWatchConnectivityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8A7D3A32A2C9D8C006DD0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A7D3AD2A2C9D8C006DD0D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB3FB06157BB3F384ED4819 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxWatchConnectivity-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4763CC18E2386FE2AF648EC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxWatchConnectivity-RxWatchConnectivityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61B1C2CFAA56C6F6A72FAC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxWatchConnectivity-RxWatchConnectivityTests/Pods-RxWatchConnectivity-RxWatchConnectivityTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RxWatchConnectivity-RxWatchConnectivityTests/Pods-RxWatchConnectivity-RxWatchConnectivityTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RxWatchConnectivity-RxWatchConnectivityTests/Pods-RxWatchConnectivity-RxWatchConnectivityTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8A7D3A12A2C9D8C006DD0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8A7D3C02A2CA1C3006DD0D2 /* RxWatchConnectivity.swift in Sources */,
+				B8A7D3AA2A2C9D8C006DD0D2 /* RxWatchConnectivity.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A7D3AB2A2C9D8C006DD0D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81F873A2A2DBC82002801C3 /* RxWatchConnectivityInactiveTest.swift in Sources */,
+				B8A7D3B52A2C9D8C006DD0D2 /* RxWatchConnectivityTests.swift in Sources */,
+				B81F87382A2D8B1C002801C3 /* RxWatchConnectivityFailureTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8A7D3B22A2C9D8C006DD0D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8A7D3A42A2C9D8C006DD0D2 /* RxWatchConnectivity */;
+			targetProxy = B8A7D3B12A2C9D8C006DD0D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B8A7D3B72A2C9D8C006DD0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8A7D3B82A2C9D8C006DD0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8A7D3BA2A2C9D8C006DD0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF388BB793E148A27483828B /* Pods-RxWatchConnectivity.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 48D98T8YHT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguswidhiyasa.RxWatchConnectivity;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		B8A7D3BB2A2C9D8C006DD0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555636A61237A9DF104F2F4E /* Pods-RxWatchConnectivity.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 48D98T8YHT;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguswidhiyasa.RxWatchConnectivity;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		B8A7D3BD2A2C9D8C006DD0D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C691D087028489EA26962893 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48D98T8YHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguswidhiyasa.RxWatchConnectivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8A7D3BE2A2C9D8C006DD0D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE688A579942C4F08F86FE9 /* Pods-RxWatchConnectivity-RxWatchConnectivityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 48D98T8YHT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aguswidhiyasa.RxWatchConnectivityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8A7D39F2A2C9D8C006DD0D2 /* Build configuration list for PBXProject "RxWatchConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A7D3B72A2C9D8C006DD0D2 /* Debug */,
+				B8A7D3B82A2C9D8C006DD0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A7D3B92A2C9D8C006DD0D2 /* Build configuration list for PBXNativeTarget "RxWatchConnectivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A7D3BA2A2C9D8C006DD0D2 /* Debug */,
+				B8A7D3BB2A2C9D8C006DD0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8A7D3BC2A2C9D8C006DD0D2 /* Build configuration list for PBXNativeTarget "RxWatchConnectivityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8A7D3BD2A2C9D8C006DD0D2 /* Debug */,
+				B8A7D3BE2A2C9D8C006DD0D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B8A7D39C2A2C9D8C006DD0D2 /* Project object */;
+}
